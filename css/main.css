@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: "Consolas", monospace;
+  font-size: 18px;
+
+  background-image: url("../img/background.jpg");
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #191dff
+}
+
+a:hover { 
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.column {
+  width: 970px;
+}
+
+h1, h2, li, p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0.25em;
+}
+
