@@ -1,0 +1,19 @@
+.polaroid img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    height: 100%;
+}
+
+.polaroid {
+    height: auto;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+
+.caption {
+    padding: 0 20px 20px 20px;
+    font-size: 1em;
+}
